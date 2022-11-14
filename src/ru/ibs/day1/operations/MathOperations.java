@@ -20,9 +20,11 @@ public class MathOperations {
         System.out.println("++a = " + (++a));
         System.out.println("a = " + a);
 
+        // a = 12
         System.out.println("a-- = " + (a--));
         System.out.println("a = " + a);
 
+        // a = 11
         System.out.println("--a = " + (--a));
         System.out.println("a = " + a);
     }

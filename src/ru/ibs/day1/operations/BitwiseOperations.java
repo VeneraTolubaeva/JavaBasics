@@ -21,7 +21,7 @@ public class BitwiseOperations {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        //bitwise
+        //bitwise второй вариант поменять значение переменных a and b, не самый лучший:
         b = a ^ b;
         a = a ^ b;
         b = a ^ b;

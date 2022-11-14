@@ -15,6 +15,7 @@ public class Conditions {
         }
         System.out.println("The end");
     }
+
     public static void main1(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a number: ");
