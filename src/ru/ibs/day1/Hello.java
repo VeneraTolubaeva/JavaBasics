@@ -1,4 +1,5 @@
 package ru.ibs.day1;
+
 import ru.ibs.day1.util.Utils;
 import static ru.ibs.day1.util.Utils.print;
 
