@@ -1,4 +1,4 @@
-package ru.ibs.day2;
+package ru.ibs.day2.condition;
 
 import java.util.Scanner;
 
