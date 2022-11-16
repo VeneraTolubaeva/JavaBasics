@@ -1,6 +1,6 @@
 package ru.ibs.day3.visibility;
 
-public class BaseClass {
+public class ParallelChild {
     public void m1() {
         System.out.println("m1()");
     }
