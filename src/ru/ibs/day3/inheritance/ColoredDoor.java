@@ -1,6 +1,6 @@
-package ru.ibs.day3;
+package ru.ibs.day3.inheritance;
 
-public class ColoredDoor {
+public class ColoredDoor extends Door {
     private String color;
     public String getColor() {
         return color;
