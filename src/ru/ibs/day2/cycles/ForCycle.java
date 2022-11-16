@@ -5,11 +5,16 @@ public class ForCycle {
         for (String s : args) {
             System.out.println(s);
         }
+
         System.out.println("The end");
     }
+
     public static void main1(String[] args) {
+        // init ; end condition ; on each iteration
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
         }
+
+        System.out.println("The end");
     }
 }

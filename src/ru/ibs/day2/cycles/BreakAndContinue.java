@@ -4,6 +4,7 @@ public class BreakAndContinue {
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {
             if (i == 3)
+                // Skip current iteration and move to next one
                 continue;
             System.out.println(i);
         }
@@ -11,6 +12,7 @@ public class BreakAndContinue {
         int n = 0;
         while (n < 5) {
             if (n == 3) {
+                // Stop cycle execution
                 break;
             }
             System.out.println(n);

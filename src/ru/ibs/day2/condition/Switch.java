@@ -9,10 +9,10 @@ public class Switch {
         String str = scanner.next();
 
         /*
-        Switch work with^
+        Switch work with
         1. int
         2. String
-        3. enam
+        3. enum
          */
 
         switch (str) {
@@ -29,15 +29,15 @@ public class Switch {
     }
     public static void main1(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter a number: ");
+        System.out.print("Please enter a number: ");
         int n = scanner.nextInt();
 
         switch (n) {
             case 1:
-                System.out.println("n == 1");
-                break;
+                /*System.out.println("n == 1");
+                break;*/
             case 2:
-                System.out.println("n == 2");
+                System.out.println("n is either 1 or 2");
                 break;
             case 3:
                 System.out.println("n == 3");

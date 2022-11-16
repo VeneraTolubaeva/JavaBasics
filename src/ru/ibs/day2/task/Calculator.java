@@ -4,7 +4,7 @@ import java.util.Scanner;
 import ru.ibs.day2.task.MathActions;
 
 public class Calculator {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter an action (+ - * / !): ");
         String action = scanner.next();
@@ -37,6 +37,10 @@ public class Calculator {
                 break;
             default:
                 System.out.println("Action \"" + action + "\" is not supported");
+        }
+        for (int a = 0; a < 10; a++){
+            if (a < 0) break;
+
         }
     }
 }
