@@ -20,15 +20,15 @@ public class Calculator {
                 System.out.println(a + "+" + b + "=" + c);
                 break;
             case "-":
-                int c = MathActions.minus(a, b);
+                c = MathActions.minus(a, b);
                 System.out.println(a + "-" + b + "=" + c);
                 break;
             case "*":
-                int c = MathActions.increase(a, b);
+                c = MathActions.multiply(a, b);
                 System.out.println(a + "*" + b + "=" + c);
                 break;
             case "/":
-                int c = MathActions.division(a, b);
+                c = MathActions.divide(a, b);
                 System.out.println(a + "/" + b + "=" + c);
                 break;
             case "!":
@@ -37,10 +37,6 @@ public class Calculator {
                 break;
             default:
                 System.out.println("Action \"" + action + "\" is not supported");
-        }
-        for (int a = 0; a < 10; a++){
-            if (a < 0) break;
-
         }
     }
 }

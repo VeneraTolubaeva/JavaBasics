@@ -7,10 +7,10 @@ public class MathActions {
     public static int minus(int a, int b) {
         return a - b;
     }
-    public static int increase(int a, int b) {
+    public static int multiply(int a, int b) {
         return a * b;
     }
-    public static int division(int a, int b) {
+    public static int divide(int a, int b) {
         return a / b;
     }
     public static int factorial1(int a){
@@ -19,7 +19,7 @@ public class MathActions {
         if (a <= 2) return a;
         int result = 2;
 
-        for (int n = 3; n < a; n++) {
+        for (int n = 3; n <= a; n++) {
             result *= n;
         }
           return result;
