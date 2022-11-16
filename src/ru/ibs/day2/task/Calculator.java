@@ -32,7 +32,7 @@ public class Calculator {
                 System.out.println(a + "/" + b + "=" + c);
                 break;
             case "!":
-                int c = MathActions.factorial1(a); // можно поменять на factorial2 для решения вторым способом
+                c = MathActions.factorial1(a); // можно поменять на factorial2 для решения вторым способом
                 System.out.println(a + "! = " + MathActions.factorial1(a));
                 break;
             default:
