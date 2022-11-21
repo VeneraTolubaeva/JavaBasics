@@ -21,7 +21,7 @@ public class Main {
         child.m3();
 
         // Мы скопировали данные из BaseClass в ParalleChild, но код ниже не работает,
-        // так как ParalleChild не является дочерним классом BaseClass
+        // так как ParallelChild не является дочерним классом BaseClass
         //BaseClass parallel = new ParallelChild();
     }
 }
