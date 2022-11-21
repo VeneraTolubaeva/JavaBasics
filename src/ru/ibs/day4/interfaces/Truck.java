@@ -1,4 +1,5 @@
 package ru.ibs.day4.interfaces;
 
-public class Truck {
+public interface Truck extends Vehicle {
+    void load();
 }

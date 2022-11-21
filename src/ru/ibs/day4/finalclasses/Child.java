@@ -1,14 +1,15 @@
 package ru.ibs.day4.finalclasses;
 
 public class Child extends Base {
+    private final String var;
 
-    private final  String var;
     {
-        var = "Some value";
+        var = "some value";
     }
-//    public Child() {
-//        var = "Some value";
-//    }
+
+    /*public Child() {
+        var = "Some value";
+    }*/
 
     public void m() {
         final String message = "Hello, World!";

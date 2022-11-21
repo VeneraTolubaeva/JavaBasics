@@ -1,4 +1,4 @@
 package ru.ibs.day4.interfaces;
 
-public class Vehicle {
+public interface Vehicle {
 }

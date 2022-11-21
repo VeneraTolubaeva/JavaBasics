@@ -1,6 +1,6 @@
 package ru.ibs.day4.abstractclasses;
 
-public class Circle1 extends Figure{
+public abstract class Circle1 extends Figure {
     private int radius;
 
     public int getRadius() {

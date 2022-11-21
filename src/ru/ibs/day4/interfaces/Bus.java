@@ -1,4 +1,11 @@
 package ru.ibs.day4.interfaces;
 
-public class Bus extends Vehicle {
+import ru.ibs.task.Person;
+
+public interface Bus extends Vehicle {
+    // This is essentially constant
+    int n = 2;
+
+    // ALL interface methods are public
+    void board();
 }

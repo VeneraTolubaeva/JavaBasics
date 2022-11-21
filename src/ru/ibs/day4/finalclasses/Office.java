@@ -1,4 +1,6 @@
 package ru.ibs.day4.finalclasses;
 
-public class Office {
+// Cannot extend final class
+public class Office {//extends House{
+    private House house;
 }

@@ -5,8 +5,9 @@ public class Base {
         System.out.println("Base m()");
     }
     static {
-        System.out.println(" - Static block");
+        System.out.println(" - Static block 1");
     }
+
     {
         System.out.println(" - Block 1");
     }
@@ -14,6 +15,7 @@ public class Base {
     public Base() {
         System.out.println("Base constructor");
     }
+
     {
         System.out.println(" - Block 2");
     }

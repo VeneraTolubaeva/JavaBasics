@@ -5,7 +5,7 @@ public class Main {
         Base.m();
         new Base();
         new Base();
-        System.out.println("*********");
+        System.out.println("--------");
         new Child();
     }
 }
