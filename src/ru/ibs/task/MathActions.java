@@ -1,4 +1,4 @@
-package ru.ibs.day2.task;
+package ru.ibs.task;
 
 public class MathActions {
     public static int sum(int a, int b) {

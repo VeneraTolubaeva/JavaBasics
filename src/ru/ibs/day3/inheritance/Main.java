@@ -1,8 +1,7 @@
 package ru.ibs.day3.inheritance;
 
-import ru.ibs.day3.visibility.BaseClass;
-import ru.ibs.day3.visibility.ChildClass;
-import ru.ibs.day3.visibility.ParallelChild;
+import ru.ibs.day3.inheritance.visibility.BaseClass;
+import ru.ibs.day3.inheritance.visibility.ChildClass;
 
 public class Main {
     public static void main(String[] args) {

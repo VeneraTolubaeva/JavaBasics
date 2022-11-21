@@ -1,4 +1,4 @@
-package ru.ibs.day3.visibility;
+package ru.ibs.day3.inheritance.visibility;
 
 public class ParallelChild {
     public void m1() {

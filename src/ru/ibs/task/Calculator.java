@@ -1,7 +1,6 @@
-package ru.ibs.day2.task;
+package ru.ibs.task;
 
 import java.util.Scanner;
-import ru.ibs.day2.task.MathActions;
 
 public class Calculator {
         public static void main(String[] args) {

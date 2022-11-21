@@ -1,4 +1,4 @@
-package ru.ibs.day3.visibility;
+package ru.ibs.day3.inheritance.visibility;
 
 public class ChildClass extends BaseClass {
     public void m2() { // расширять метод можно, из protected в public
