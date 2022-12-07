@@ -14,6 +14,10 @@ public class Box<T> {
         return item;
     }
 
+    public void setItem(T item) {
+        this.item = item;
+    }
+
     // Impossible to create instance of generic type
     /*public T newItem() {
         return new T();

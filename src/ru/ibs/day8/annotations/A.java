@@ -1,6 +1,7 @@
 package ru.ibs.day8.annotations;
 
 @First
+@Second
 public class A {
     @First
     private int a;
