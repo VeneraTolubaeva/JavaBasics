@@ -15,12 +15,14 @@ public class NewLinkedTask {
 
         System.out.println("Оригинал: " + numList.toString());
 
-        for (int i = 0; i < 10; i++) {
-            if (numList.contains(3)) {
-                int ind = numList.indexOf(3);
-                numList.remove(ind);
-            }
-        }
+//        for (int i = 0; i < 10; i++) {
+//            if (numList.contains(3)) {
+//                int ind = numList.indexOf(3);
+//                numList.remove(ind);
+//            }
+//        }
+
+        while (numList.remove(Integer.valueOf(3)));
 
         System.out.println("Новый список: " + numList.toString());
     }
